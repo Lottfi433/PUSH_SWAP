@@ -6,7 +6,7 @@
 /*   By: yasserlotfi <yasserlotfi@student.42.fr>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/06 11:06:53 by yasserlotfi       #+#    #+#             */
-/*   Updated: 2025/02/23 13:02:52 by yasserlotfi      ###   ########.fr       */
+/*   Updated: 2025/02/24 09:53:23 by yasserlotfi      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,18 +25,19 @@ void	main_parsing(t_stack **a, char **av)
 		split = ft_split(av[i], ' ');
 		j = 0;
 		if (split == NULL || split[j] == NULL)
-			error ();
+			error_in_split(split);
 		while (split[j])
 		{
 			if (!is_valid_number(split[j]))
-				error ();
+				error_in_split (split);
 			add_back(a, ft_atoi(split[j]));
 			j++;
 		}
 		i++;
 		if (duplicate_check(*a) == 0)
-			error();
+			error_in_split (split);
 	}
+	free_args(split);
 }
 
 int	main(int ac, char **av)
@@ -52,7 +53,8 @@ int	main(int ac, char **av)
 		if (sort_check(&a) != 1)
 		{
 			list_indix(&a);
-			sorting(&a, ac, &b);
+			sorting(&a, &b);
 		}
+		free_list(a);
 	}
 }

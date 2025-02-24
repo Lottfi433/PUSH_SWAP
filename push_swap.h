@@ -6,7 +6,7 @@
 /*   By: yasserlotfi <yasserlotfi@student.42.fr>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/06 10:59:31 by yasserlotfi       #+#    #+#             */
-/*   Updated: 2025/02/22 10:34:02 by yasserlotfi      ###   ########.fr       */
+/*   Updated: 2025/02/24 09:49:24 by yasserlotfi      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,6 +32,7 @@ int		is_valid_number(char *av);
 int		duplicate_check(t_stack *a);
 void	free_args(char **av);
 void	error(void);
+void	error_in_split(char **split);
 int		ft_atoi(char *str);
 int		ft_strlen(char *str);
 void	check_args(char *str);
@@ -52,7 +53,7 @@ void	rra(t_stack **a);
 void	rrb(t_stack	**b);
 void	rrr(t_stack **a, t_stack **b);
 int		sort_check(t_stack	**a);
-void	sorting(t_stack **stack, int ac, t_stack **stack2);
+void	sorting(t_stack **stack, t_stack **stack2);
 void	sort_three_helper(t_stack **stack);
 void	sort_three_helper2(t_stack **stack, int first, int second, int third);
 void	sort_three(t_stack **stack, int first, int second, int third);

@@ -6,7 +6,7 @@
 /*   By: yasserlotfi <yasserlotfi@student.42.fr>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/08 12:19:05 by yasserlotfi       #+#    #+#             */
-/*   Updated: 2025/02/20 11:30:16 by yasserlotfi      ###   ########.fr       */
+/*   Updated: 2025/02/24 09:53:34 by yasserlotfi      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -48,4 +48,11 @@ int	list_size(t_stack **a)
 		tmp = tmp->next;
 	}
 	return (i);
+}
+
+void	error_in_split(char **split)
+{
+	free_args(split);
+	write(2, "Error", 5);
+	exit(1);
 }

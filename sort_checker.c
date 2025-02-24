@@ -6,7 +6,7 @@
 /*   By: yasserlotfi <yasserlotfi@student.42.fr>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/12 13:19:19 by yasserlotfi       #+#    #+#             */
-/*   Updated: 2025/02/23 10:36:02 by yasserlotfi      ###   ########.fr       */
+/*   Updated: 2025/02/24 09:29:15 by yasserlotfi      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,15 +28,15 @@ int	sort_check(t_stack	**a)
 	return (1);
 }
 
-void	sorting(t_stack **stack, int ac, t_stack **stack2)
+void	sorting(t_stack **stack, t_stack **stack2)
 {
-	if (ac == 4)
+	if (list_size(stack) == 3)
 		sort_three_helper(stack);
-	else if (ac == 6)
+	else if (list_size(stack) == 5)
 		sort_five(stack, stack2);
-	else if (ac == 3)
+	else if (list_size(stack) == 2)
 		sort_two(stack);
-	else if (ac == 5)
+	else if (list_size(stack) == 4)
 		sort_four(stack, stack2);
 	else
 	{
