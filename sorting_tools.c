@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   sorting_tools.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: yasserlotfi <yasserlotfi@student.42.fr>    +#+  +:+       +#+        */
+/*   By: yazlaigi <yazlaigi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/02/17 13:09:00 by yasserlotfi       #+#    #+#             */
-/*   Updated: 2025/02/22 10:33:16 by yasserlotfi      ###   ########.fr       */
+/*   Created: 2025/03/01 09:19:51 by yazlaigi          #+#    #+#             */
+/*   Updated: 2025/03/01 12:07:57 by yazlaigi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -110,7 +110,7 @@ void	from_b_to_a(t_stack **a, t_stack **b)
 		else if (last_list_index(a) < last_list_index(b))
 			(rrb(b), pa(a, b), ra(a));
 		else if (last_list_index(a) == (*a)->index - 1)
-			(rra(a));
+			rra(a);
 		else if (half_index(b, (*a)->index - 1) == 1)
 			rb(b);
 		else if (half_index(b, (*a)->index - 1) == 2)

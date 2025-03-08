@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: yasserlotfi <yasserlotfi@student.42.fr>    +#+  +:+       +#+        */
+/*   By: yazlaigi <yazlaigi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/02/06 11:06:53 by yasserlotfi       #+#    #+#             */
-/*   Updated: 2025/02/24 09:53:23 by yasserlotfi      ###   ########.fr       */
+/*   Created: 2025/03/01 09:18:08 by yazlaigi          #+#    #+#             */
+/*   Updated: 2025/03/05 12:02:54 by yazlaigi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,8 +36,8 @@ void	main_parsing(t_stack **a, char **av)
 		i++;
 		if (duplicate_check(*a) == 0)
 			error_in_split (split);
+		free_args(split);
 	}
-	free_args(split);
 }
 
 int	main(int ac, char **av)
@@ -55,6 +55,6 @@ int	main(int ac, char **av)
 			list_indix(&a);
 			sorting(&a, &b);
 		}
-		free_list(a);
 	}
+	free_list(a);
 }

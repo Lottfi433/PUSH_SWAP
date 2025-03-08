@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_split.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: yasserlotfi <yasserlotfi@student.42.fr>    +#+  +:+       +#+        */
+/*   By: yazlaigi <yazlaigi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/02/06 10:54:56 by yasserlotfi       #+#    #+#             */
-/*   Updated: 2025/02/10 11:23:07 by yasserlotfi      ###   ########.fr       */
+/*   Created: 2025/03/01 09:17:39 by yazlaigi          #+#    #+#             */
+/*   Updated: 2025/03/01 09:17:45 by yazlaigi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ps_tools2.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: yasserlotfi <yasserlotfi@student.42.fr>    +#+  +:+       +#+        */
+/*   By: yazlaigi <yazlaigi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/02/08 12:19:05 by yasserlotfi       #+#    #+#             */
-/*   Updated: 2025/02/24 09:53:34 by yasserlotfi      ###   ########.fr       */
+/*   Created: 2025/03/01 09:18:29 by yazlaigi          #+#    #+#             */
+/*   Updated: 2025/03/05 12:01:52 by yazlaigi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,6 +53,6 @@ int	list_size(t_stack **a)
 void	error_in_split(char **split)
 {
 	free_args(split);
-	write(2, "Error", 5);
+	write(2, "Error\n", 6);
 	exit(1);
 }

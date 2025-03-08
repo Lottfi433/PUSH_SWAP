@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ps_tools.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: yasserlotfi <yasserlotfi@student.42.fr>    +#+  +:+       +#+        */
+/*   By: yazlaigi <yazlaigi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/02/08 10:00:18 by yasserlotfi       #+#    #+#             */
-/*   Updated: 2025/02/23 12:30:42 by yasserlotfi      ###   ########.fr       */
+/*   Created: 2025/03/01 09:18:18 by yazlaigi          #+#    #+#             */
+/*   Updated: 2025/03/05 11:54:09 by yazlaigi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,11 +25,11 @@ void	check_args(char *str)
 		error();
 }
 
-int	ft_atoi(char *str)
+long	ft_atoi(char *str)
 {
-	int	i;
-	int	s;
-	int	r;
+	long	i;
+	long	s;
+	long	r;
 
 	s = 1;
 	r = 0;
@@ -89,7 +89,7 @@ int	is_valid_number(char *av)
 	{
 		if (av[i] < '0' || av[i] > '9')
 			return (0);
-		i++;
+		i++; 
 	}
 	num = ft_atoi(av);
 	if (num > 2147483647 || num < -2147483648)

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   push.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: yasserlotfi <yasserlotfi@student.42.fr>    +#+  +:+       +#+        */
+/*   By: yazlaigi <yazlaigi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/02/12 10:38:47 by yasserlotfi       #+#    #+#             */
-/*   Updated: 2025/02/12 11:00:03 by yasserlotfi      ###   ########.fr       */
+/*   Created: 2025/03/01 09:18:54 by yazlaigi          #+#    #+#             */
+/*   Updated: 2025/03/01 09:18:57 by yazlaigi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

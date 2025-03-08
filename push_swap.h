@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   push_swap.h                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: yasserlotfi <yasserlotfi@student.42.fr>    +#+  +:+       +#+        */
+/*   By: yazlaigi <yazlaigi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/02/06 10:59:31 by yasserlotfi       #+#    #+#             */
-/*   Updated: 2025/02/24 09:49:24 by yasserlotfi      ###   ########.fr       */
+/*   Created: 2025/03/01 09:18:44 by yazlaigi          #+#    #+#             */
+/*   Updated: 2025/03/05 11:44:58 by yazlaigi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,7 @@
 # define PUSH_SWAP_H
 
 # include <stdlib.h>
-# include <stdlib.h>
 # include <unistd.h>
-# include <stdio.h>
 
 typedef struct node
 {
@@ -33,7 +31,7 @@ int		duplicate_check(t_stack *a);
 void	free_args(char **av);
 void	error(void);
 void	error_in_split(char **split);
-int		ft_atoi(char *str);
+long	ft_atoi(char *str);
 int		ft_strlen(char *str);
 void	check_args(char *str);
 void	free_list(t_stack *a_head);

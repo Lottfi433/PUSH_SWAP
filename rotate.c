@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   rotate.c                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: yasserlotfi <yasserlotfi@student.42.fr>    +#+  +:+       +#+        */
+/*   By: yazlaigi <yazlaigi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/02/11 11:53:10 by yasserlotfi       #+#    #+#             */
-/*   Updated: 2025/02/12 10:59:45 by yasserlotfi      ###   ########.fr       */
+/*   Created: 2025/03/01 09:19:10 by yazlaigi          #+#    #+#             */
+/*   Updated: 2025/03/01 09:19:12 by yazlaigi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

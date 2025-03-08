@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   reverse_rotate.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: yasserlotfi <yasserlotfi@student.42.fr>    +#+  +:+       +#+        */
+/*   By: yazlaigi <yazlaigi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/02/12 10:50:55 by yasserlotfi       #+#    #+#             */
-/*   Updated: 2025/02/12 11:00:10 by yasserlotfi      ###   ########.fr       */
+/*   Created: 2025/03/01 09:19:01 by yazlaigi          #+#    #+#             */
+/*   Updated: 2025/03/01 09:19:03 by yazlaigi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

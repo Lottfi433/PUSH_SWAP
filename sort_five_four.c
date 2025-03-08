@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   sort_five_four.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: yasserlotfi <yasserlotfi@student.42.fr>    +#+  +:+       +#+        */
+/*   By: yazlaigi <yazlaigi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/02/17 09:14:37 by yasserlotfi       #+#    #+#             */
-/*   Updated: 2025/02/17 11:57:44 by yasserlotfi      ###   ########.fr       */
+/*   Created: 2025/03/01 09:19:32 by yazlaigi          #+#    #+#             */
+/*   Updated: 2025/03/01 09:19:36 by yazlaigi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

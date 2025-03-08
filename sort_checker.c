@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   sort_checker.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: yasserlotfi <yasserlotfi@student.42.fr>    +#+  +:+       +#+        */
+/*   By: yazlaigi <yazlaigi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/02/12 13:19:19 by yasserlotfi       #+#    #+#             */
-/*   Updated: 2025/02/24 09:29:15 by yasserlotfi      ###   ########.fr       */
+/*   Created: 2025/03/01 09:19:19 by yazlaigi          #+#    #+#             */
+/*   Updated: 2025/03/01 09:19:21 by yazlaigi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
